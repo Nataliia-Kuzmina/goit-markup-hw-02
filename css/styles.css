@@ -1,0 +1,166 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-color: #F5F5F5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-color);
+    letter-spacing: 0.03em;
+     }
+
+.logo-web, .logo-studio-header,.logo-studio-footer {
+     font-family:'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
+     letter-spacing: 0.03em;
+ }
+
+ .logo-web {
+     color: var(--accent-color);
+ }
+
+ .logo-studio-header {
+     color: #000000;
+ }
+
+li {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    font-style: normal
+}
+
+.site-nav, .mail, .tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav {
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav .current,
+.project-nav button:hover, 
+.project-nav button:focus,
+.project-nav .current {
+color: var(--accent-color);
+}
+
+.mail {
+   color: var(--accent-color);
+}
+
+.tel {
+    color: var(--secondary-text-color);
+}   
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#2F303A;
+
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    border-color: transparent;
+}
+
+p {
+    color: var(--secondary-text-color);
+}
+
+.features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    }
+
+.features-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+   }
+
+.title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+.team-members {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+footer {
+    background-color: #2F303A;
+}
+.logo-studio-footer, .address {
+    color: #FFFFFF;
+}
+
+.mail-footer,
+.tel-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address, .mail-footer, .tel-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+    /* page 2 */
+
+.project-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    
+}
+.button-current {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.project-nav button {
+    border-color: transparent;
+}
+.projects  {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.projects .project-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
