@@ -55,7 +55,10 @@ a:link {
 .contacts a:focus,
 .project-nav button:hover, 
 .project-nav button:focus,
-.project-nav .current {
+.project-nav .current,
+.contacts-footer a:hover,
+.contacts-footer a:focus
+ {
 color: var(--accent-color);
 }
 
